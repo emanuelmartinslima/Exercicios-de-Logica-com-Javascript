@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 9 - JavaScript pela tag Script dentro do Body</title>
+</head>
+<body>
+    <h2>Javascript dentro do Body</h2>
+
+    <p id="demo">Somente a dor coletiva gera união.</p>
+
+    <button type="button" onclick="funcao()">Clique aqui</button>
+
+    <script>
+        function funcao(){
+            document.getElementById('demo').innerHTML = "Somente a dor coletiva gera união ou caos. Marcha!";
+        }
+    </script>
+</body>
+</html>
