@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 36 - Função</title>
+</head>
+
+<body>
+    <script>
+        function calcularMultiplicacao(numero1, numero2) {
+            return numero1 * numero2;
+        }
+
+        function substituirParagrafo(numero1, numero2) {
+            let resultado = calcularMultiplicacao(numero1, numero2);
+
+            document.getElementById('paragrafo').innerHTML = `${resultado}`;
+        }
+    </script>
+
+    <h1>Função</h1>
+    <p id="paragrafo">Clique no botão para substituir esse parágrafo pelo resultado da multiplicação entre 4 e 3.</p>
+
+    <button type="button" onclick="substituirParagrafo(4, 3)">Clique Aqui!</button>
+</body>
+
+</html>
