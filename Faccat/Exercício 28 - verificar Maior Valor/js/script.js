@@ -6,7 +6,7 @@ let numero2 = parseInt(prompt('Digite um valor inteiro para o segundo número: '
 
 let numero3 = parseInt(prompt('Digite um valor inteiro para o terceiro número: '));
 
-let maiorNumero;
+let maiorNumero = numero1;
 
 if ((numero1 > numero2) && (numero1 > numero3)){
     maiorNumero = numero1;
